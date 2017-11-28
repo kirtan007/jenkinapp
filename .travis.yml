@@ -30,4 +30,4 @@ android:
 
 
     script:
-        - ./gradlew testDebugUnitTest
+        -bash gradlew testDebugUnitTest
