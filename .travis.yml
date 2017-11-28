@@ -1,16 +1,10 @@
-language: android
-android:
-  components:
-    # Uncomment the lines below if you want to
-    # use the latest revision of Android SDK Tools
+--- 
+android: 
+  components: 
     - tools
     - platform-tools
-
-    # The BuildTools version used by your project
     - build-tools-26.0.2
-
-    # The SDK version used to compile your project
     - android-26
-
-   script:
-    - ./gradlew testDebugUnitTest
+language: android
+script: 
+  - "./gradlew testDebugUnitTest"
